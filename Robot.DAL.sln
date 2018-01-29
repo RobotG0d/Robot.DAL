@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.DAL.Core", "Robot.DAL.Core\Robot.DAL.Core.csproj", "{A90C0695-F627-4150-A0F3-4B99A6CC234F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.DAL.SqlServer", "Robot.DAL.SqlServer\Robot.DAL.SqlServer.csproj", "{9BA5714C-EBEE-4A23-8043-CDA4E4DCA15C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.DAL.Orchestration.Test", "Robot.DAL.Orchestration.Test\Robot.DAL.Orchestration.Test.csproj", "{1793324C-DDFF-442B-A877-254AF0992785}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{5044DA69-E00A-4515-8A43-20597F22A806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.DAL.Orchestration", "Robot.DAL.Orchestration\Robot.DAL.Orchestration.csproj", "{23C9CBF2-7141-401B-96D6-EF4479487061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Expected", "Robot.Expected\Robot.Expected.csproj", "{EA353E29-B19F-4D92-97C4-2B7037970B9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A90C0695-F627-4150-A0F3-4B99A6CC234F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90C0695-F627-4150-A0F3-4B99A6CC234F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90C0695-F627-4150-A0F3-4B99A6CC234F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90C0695-F627-4150-A0F3-4B99A6CC234F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA5714C-EBEE-4A23-8043-CDA4E4DCA15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA5714C-EBEE-4A23-8043-CDA4E4DCA15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA5714C-EBEE-4A23-8043-CDA4E4DCA15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA5714C-EBEE-4A23-8043-CDA4E4DCA15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1793324C-DDFF-442B-A877-254AF0992785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1793324C-DDFF-442B-A877-254AF0992785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1793324C-DDFF-442B-A877-254AF0992785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1793324C-DDFF-442B-A877-254AF0992785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C9CBF2-7141-401B-96D6-EF4479487061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C9CBF2-7141-401B-96D6-EF4479487061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C9CBF2-7141-401B-96D6-EF4479487061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C9CBF2-7141-401B-96D6-EF4479487061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA353E29-B19F-4D92-97C4-2B7037970B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA353E29-B19F-4D92-97C4-2B7037970B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA353E29-B19F-4D92-97C4-2B7037970B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA353E29-B19F-4D92-97C4-2B7037970B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1793324C-DDFF-442B-A877-254AF0992785} = {5044DA69-E00A-4515-8A43-20597F22A806}
+	EndGlobalSection
+EndGlobal
